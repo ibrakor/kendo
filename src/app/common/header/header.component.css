@@ -1,0 +1,29 @@
+.app-header {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.main-nav ul {
+  list-style: none;
+  display: flex;
+}
+
+.main-nav li {
+  margin-right: 20px;
+}
+
+.main-nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.main-nav a:hover {
+  border-bottom: 2px solid white;
+}

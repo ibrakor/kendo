@@ -1,0 +1,31 @@
+/* products-store.component.css */
+
+.products-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.horizontal-products,
+.vertical-products {
+  text-align: center;
+}
+
+.horizontal-list,
+.vertical-products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.horizontal-item,
+.vertical-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  max-width: 200px;
+}
+
+.horizontal-item img,
+.vertical-item img {
+  max-width: 100%;
+  height: auto;
+}

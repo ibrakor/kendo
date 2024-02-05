@@ -1,0 +1,12 @@
+<div class="products-container">
+  <div class="horizontal-products">
+    <div class="horizontal-list">
+      <div *ngFor="let product of products" class="horizontal-item">
+        <img [src]="product.image" alt="{{ product.title }}">
+        <p>{{ product.title }}</p>
+      </div>
+    </div>
+  </div>
+
+
+</div>

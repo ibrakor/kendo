@@ -1,0 +1,37 @@
+/* product-detail.component.css */
+
+.product-detail-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.product-detail {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.product-info {
+  flex: 1;
+  padding: 0 20px;
+}
+
+.product-info h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.product-info p {
+  margin: 0;
+}
+
+.category {
+  font-style: italic;
+  color: #888;
+}
+
+.description {
+  margin-top: 10px;
+  line-height: 1.5;
+}
