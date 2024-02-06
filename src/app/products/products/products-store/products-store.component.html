@@ -1,7 +1,7 @@
 <div class="products-container">
   <div class="horizontal-products">
     <div class="horizontal-list">
-      <div *ngFor="let product of products" class="horizontal-item">
+      <div *ngFor="let product of products" class="horizontal-item" routerLink="{{product.id}}">
         <img [src]="product.image" alt="{{ product.title }}">
         <p>{{ product.title }}</p>
       </div>

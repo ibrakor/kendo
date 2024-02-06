@@ -1,6 +1,6 @@
-import { ComponentFixture, TestBed } from '@angular/core/testing';
+import {ComponentFixture, TestBed} from '@angular/core/testing';
 
-import { ProductsStoreComponent } from './products-store.component';
+import {ProductsStoreComponent} from './products-store.component';
 
 describe('ProductsStoreComponent', () => {
   let component: ProductsStoreComponent;
@@ -11,7 +11,7 @@ describe('ProductsStoreComponent', () => {
       declarations: [ProductsStoreComponent]
     })
     .compileComponents();
-    
+
     fixture = TestBed.createComponent(ProductsStoreComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
